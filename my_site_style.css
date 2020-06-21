@@ -3,6 +3,7 @@ body{
   padding: 0;
   background-color: lightblue;
 }
+
 .box{
   width: 1000px;
   background: rgba(255, 0, 0, 0.4);
@@ -13,11 +14,13 @@ body{
   color: white;
   font-family: 'Century Gothic',sans-serif;
 }
+
 .box-img{
   border-radius: 50%;
   width: 140px;
   height: 250px;
 }
+
 .box h1{
   font-size: 40px;
   letter-spacing: 4px;
@@ -25,6 +28,7 @@ body{
   color: #33BDFF;
   background-color: #CAFF33;
 }
+
 .box h4{
   color: #BDFF33;
   margin:0;
@@ -34,32 +38,38 @@ body{
   font-weight:50;
   text-align: center;
 }
+
 .box p{
-  text-align: justify;
-  
-}
+  text-align: center;
+  }
+
 ul{
   margin: 0;
   padding: 0;
 }
+
 .box li{
   display: inline-block;
   margin: 10px;
   list-style: none;
 }
+
 .box li a{
   color: white;
   text-decoration: none;
   font-size: 60px;
   transition: all ease-in-out 250ms;
 }
+
 .box li a:hover{
   color: #b9b9b9;
 }
+
 h1{
 background-color:#7ABE48;
 color: #270969;
 }
+
 h3{
 color: #FF3373;
 }
