@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('bg11.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border: 9px solid rgb(200, 241, 13);
+    }
+    
+    h3 {
+        text-align: center;
+        font-size: 70px;
+        color: #10cf60;
+        text-decoration: underline;
+    }
+    
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #026418;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 300px;
+        margin-left: 230px;
+        margin-right: 210px;
+    }
+    
+    .button:hover {
+        background-color: #04721c;
+    }
+    
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    
+    .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+    
+    .button:hover span {
+        padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+</style>
+
+
+<body>
+    <h3>ARTICLES</h3>
+    <br><br>
+    <center>
+        <ul>
+            <a href="tech.html"><button class="button" style="vertical-align:middle"><span>Tech</span></button></a>
+            <a href="travel.html"><button class="button" style="vertical-align:middle"><span>Travel</span></button></a>
+        </ul>
+    </center>
+    <br><br><br><br>
+</body>
+
+</html>
