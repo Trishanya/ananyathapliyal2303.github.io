@@ -21,7 +21,6 @@
         background-image: url('bg9.jpg');
         background-repeat: no-repeat;
         background-size: 100%;
-        /*border: 500% solid rgb(200, 241, 13)*/
     }
     
     img {
@@ -77,6 +76,58 @@
         opacity: 1;
         right: 0;
     }
+    
+    @media screen and (max-width: 950px) and (min-width: 480px) {
+        body {
+            background-image: url("bg9.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        img {
+            width: 240px;
+            height: 180px;
+            align-items: center
+        }
+        .button {
+            margin: 10px;
+        }
+    }
+    
+    @media (min-width: 950px) {
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("bg9.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            @media screen and (max-width: 950px) and (min-width: 480px) {
+                body {
+                    background-image: url("bg9.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                img {
+                    width: 240px;
+                    height: 180px;
+                    align-items: center
+                }
+                .button {
+                    margin: 10px;
+                }
+            }
+            @media (min-width: 950px) {
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background-image: url("bg9.jpg");
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+            }
+        }
+    }
 </style>
 
 <body>
@@ -91,8 +142,8 @@
         <ul>
 
 
-            <img src="me1.JPG" alt="aus">
-            <img src="me3.JPG" alt="sin">
+            <img src="me1.jpg" alt="aus">
+            <img src="me3.jpg" alt="sin">
             <a href="https://ananyathapliyal2303.blogspot.com/2017/10/amazing-australia.html"><button class="button" style="vertical-align:middle"><span>AUSTRALIA</span></button></a>
             <a href="https://ananyathapliyal2303.blogspot.com/2018/07/stunning-singapore.html"><button class="button" style="vertical-align:middle"><span>SINGAPORE</span></button></a>
 
