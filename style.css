@@ -95,7 +95,7 @@ a:hover {
     font-family: 'Satisfy', cursive;
 }
 
-@media screen and (max-width: 700px) and (min-width: 480px) {
+@media screen and (max-width: 700px) and (min-width: 0px) {
     header {
         font-size: 2.2rem;
         letter-spacing: 2px;
