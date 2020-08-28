@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 
 <style>
-    body {
-        margin: 0;
-        padding: 0;
-        background-image: url('bg11.JPG');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border: 9px solid rgb(200, 241, 13);
-    }
-    
     h3 {
         text-align: center;
         font-size: 70px;
@@ -61,6 +52,31 @@
     .button:hover span:after {
         opacity: 1;
         right: 0;
+    }
+    
+    @media screen and (max-width: 950px) and (min-width: 480px) {
+        body {
+            background-image: url("bg19.JPG");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: scroll;
+            border: 9px solid rgb(200, 241, 13);
+        }
+        .button {
+            margin: 105px;
+        }
+    }
+    
+    @media (min-width: 950px) {
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("bg11.JPG");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            border: 9px solid rgb(200, 241, 13);
+        }
     }
 </style>
 
