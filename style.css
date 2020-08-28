@@ -103,10 +103,8 @@ a:hover {
         background-color: rgb(236, 31, 127);
     }
     body {
-        /* background: url('bg12.jpg');
-        background-size: 100%;
-        background-repeat: no-repeat;*/
-        background-image: url("bg16.jpg");
+
+        background-image: url("bg16.JPG");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -122,7 +120,7 @@ a:hover {
         background-color: rgb(236, 31, 127);
     }
     body {
-        background-image: url("bg12.jpg");
+        background-image: url("bg12.JPG");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
