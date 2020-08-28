@@ -5,40 +5,65 @@
 <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
 
 <style>
-    .healthmatch {
-        width: 90%;
+    @media (max-width:600px) {
+        .healthmatch {
+            width: 40%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("bg9.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            border: 9px solid rgb(200, 241, 13);
+        }
+        h2 {
+            font-size: 20px;
+            color: azure;
+        }
+        #t2 {
+            text-align: center;
+        }
     }
     
     @media (min-width:600px) {
         .healthmatch {
-            width: 40%;
+            width: 90%;
         }
-    }
-    
-    body {
-        margin: 0;
-        padding: 0;
-        background-image: url('bg9.jpg');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        border: 9px solid rgb(200, 241, 13);
-    }
-    
-    h1 {
-        font-size: 50px;
-    }
-    
-    h2 {
-        font-size: 35px;
-        color: azure;
-    }
-    
-    span {
-        font-size: 30px;
-        font-weight: 700;
-        color: azure;
-        margin-right: 15rem;
-        margin-left: 15rem;
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("bg9.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: scroll;
+            border: 9px solid rgb(200, 241, 13);
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 35px;
+            color: azure;
+        }
+        #t2 {
+            margin: 0%;
+            -moz-tab-size: 16;
+            /* Firefox */
+            -o-tab-size: 16;
+            /* Opera 10.6-12.1 */
+            tab-size: 16;
+        }
+        span {
+            font-size: 30px;
+            font-weight: 700;
+            color: azure;
+            margin-right: 15rem;
+            margin-left: 15rem;
+        }
     }
 </style>
 
@@ -58,7 +83,7 @@
             <img class="bodycontainer healthmatch" src="healthmatch.jpeg" style="width: 40%;" style="height: 30%;" />
     </a>
     <center>
-        <h2>Healthmatch</h2>
+        <h2>HealthMatch</h2>
     </center>
 
     <a href="trishanya.html">
@@ -68,9 +93,11 @@
         <img class="bodycontainer" src="Web.jpeg" style="width: 40%;" style="height: 30%;" />
     </a>
     </p>
-    <span>Trishanya</span>
-    <span>Petavista</span>
-
+    <h2>
+        <pre id="t2">
+          <center> Trishanya                 Petavista  </center>  
+            </pre>
+    </h2>
 
 </body>
 <footer>
