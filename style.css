@@ -12,13 +12,19 @@ header {
     background-color: rgb(236, 31, 127);
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(236, 31, 127);
     background: linear-gradient(to right, #eb2074, #1cdae7);
     box-shadow: 3px, 3px, 3px, black;
-    background-image: url('bg4.JPG');
+    background-image: url('bg12.jpg');
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -40,7 +46,7 @@ a {
 }
 
 a:hover {
-    color: tomato;
+    color: rgb(255, 178, 164);
 }
 
 .masked {
@@ -87,6 +93,48 @@ a:hover {
     font-size: 45px;
     color: rgb(121, 20, 3);
     font-family: 'Satisfy', cursive;
+}
+
+@media screen and (max-width: 700px) and (min-width: 480px) {
+    header {
+        font-size: 2.2rem;
+        letter-spacing: 2px;
+        color: rgb(224, 224, 65);
+        background-color: rgb(236, 31, 127);
+    }
+    body {
+        /* background: url('bg12.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;*/
+        background-image: url("bg16.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+    header {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        color: rgb(224, 224, 65);
+        background-color: rgb(236, 31, 127);
+    }
+    body {
+        background-image: url("bg12.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        /*background-image: url('bg12.jpg');
+        background-repeat: no-repeat;
+        position: relative;
+        width: 85%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;*/
+    }
 }
 
 
